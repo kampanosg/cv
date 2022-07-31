@@ -1,0 +1,90 @@
+
+\documentclass{resume}
+\usepackage{lipsum}
+\usepackage{hyperref}
+\usepackage[left=0.5in,top=0.6in,right=0.5in,bottom=0.6in]{geometry} % Document margins
+\usepackage[super]{nth}
+
+\name{George Kampanos} 
+\address{Manchester, UK}
+\address{kampanosg.github.io \\ kampanosg@outlook.com}
+
+\begin{document}
+
+\begin{rSection}{Education}
+
+\begin{rSubsection}{MSc Cyber Security, \textit{University of York}}{September 2019 - September 2020}{}{}
+\item Degree award classification: \textbf{\textit{Distinction}}    
+    \item Master's thesis has been accepted for inclusion in the IFIP SEC 2021, and it has been published.
+\end{rSubsection}
+
+\begin{rSubsection}{BSc Computer Science, \textit{University of Glasgow}}{September 2012 - July 2017}{}{}
+    \item Degree award classification: \textbf{\textit{2:1}}
+\end{rSubsection}
+
+\end{rSection}
+
+\begin{rSection}{Experience}
+
+    % Nandos
+    \begin{rSubsection}{Software Engineer, \textit{Nando's}}{October 2022 - Now}{}{}
+        \item WIP\ldots
+        \item \textbf{Technologies:} \textit{Go, Rush}
+    \end{rSubsection}
+
+    % Bet365
+    \begin{rSubsection}{Software Engineer (Core Systems), \textit{Bet365}}{September 2020 - October 2022}{}{}
+        \item Part of the team responsible for settling customer bets in real time using Erlang. The system is able to handle over 30 million bets every single day.
+        \item Focused on developing regulation compliant solutions that may differ from one country to another and without increasing complexity or sacrificing performance.
+        \item Improved the performance of the Tax Calculation service and increased its Unit Test Coverage by approx. ~80\% and refactored large parts of the system as part of the US expansion.
+        \item Developed a Priority Queue that guaranteed that specific bets are settled first and without increasing code duplication or degrading the efficiency of the \say{non-priority} system.
+        \item \textbf{Technologies:} \textit{Erlang, Riak, .NET, SQL}
+    \end{rSubsection}
+
+    % THG
+    \begin{rSubsection}{Software Engineer, \textit{The Hut Group (THG)}}{July 2017 - July 2019}{}{}
+        \item Joined the team building the bespoke Warehouse Management System (WMS) for the company's fulfilment centres across the globe.
+        \item Led the New Warehouses team which deployed, configured and tested the WMS and automation in the new warehouses acquired or built by THG.
+        \item Reduced deployment time of the WMS to a new warehouse from 3 weeks (manual process) to a few hours using Docker and scripts written in Python, YAML (cloud formation) and Bash.
+        \item Developed a configurable application that instructed automated shuttles to store and retrieve pallets from bulk storage (VNA), leading to a 50\% reduction in time spent waiting for stock from storage.
+        \item \textbf{Technologies:} \textit{Java, Python, Javascript, AWS, Docker}
+    \end{rSubsection}
+
+\end{rSection}
+
+\newpage
+
+\begin{rSection}{Projects}
+
+    \begin{rSubsection}{\say{Accept All}: The Landscape of Cookie Banners in Greece \& the UK}{Open Source}{}{}
+        \item The code for my Master's thesis: Focusing on Cookie Banners, and the privacy options that they provide, in Greece and the United Kingdom.
+        \item \textbf{Code}: \href{https://github.com/kampanosg/i-like-cookies}{https://github.com/kampanosg/i-like-cookies}
+        \item \textbf{Paper}: \href{https://arxiv.org/abs/2104.05750}{arXiv (https://arxiv.org/abs/2104.05750)}
+        \item Technologies: Python, OpenWPM, Bash, Viking (University of York's cloud computing)
+    \end{rSubsection}
+
+    \begin{rSubsection}{G.C.E}{Blog}{}{}
+        \item The \say{George Codes Erlang} (GCE) is a weekly blog that focuses on exploring various aspects for Erlang and the OTP and how they can be used to solve real-world problems.
+        \item \textbf{Website}: \href{http://georgecodeserlang.com}{https://georgecodeserlang.com}
+    \end{rSubsection}
+
+    \begin{rSubsection}{Jurassicc Farm}{NFT Project (Avalanche)}{}{}
+        \item Developed the contracts, backend and UI for the Jurassicc Farm NFT Project that features 10,000 algorithmically generated unique raptors.
+        \item Technologies: Solidity, Go, Vue.js (Javascript)
+        \item \textbf{Website:} https://jurassicc.farm
+    \end{rSubsection}
+
+\end{rSection}
+
+\begin{rSection}{Skills}
+    \begin{tabular}{ @{} >{\bfseries}l @{\hspace{6ex}} l }
+        Languages & Go, Erlang, Rust, Java, Python, Bash, \LaTeX \\
+        \\
+        Databases & Riak, DynamoDB, SQL (MSDB \& PostrSQL), Hazelcast \\
+        \\
+        Experience in & Git, Docker \& Kubernetes, AWS, CI, TDD
+        \\
+    \end{tabular}
+\end{rSection}
+
+\end{document}
