@@ -1,7 +1,5 @@
-# George Kampanos' CV
-This is the "official" repo for my CV. I figured it's a lot easier to keep (and maintain) it under source control, rather than a document in a forgotten drive somewhere in the cloud. The repo contains a compiled PDF for the millions of recruiters that will visit this page, eager to read my CV. Otherwise, if you're brave enough, 
-
-Built with latex because I don't know how to use MS Word.
+# The CV Page
+This is the "official" repo for my CV. I figured it's a lot easier to keep (and maintain) it here, rather than a random folder in the cloud. There's a compiled PDF for the ~millions of~ recruiters eager to read my CV, but don't know how to compile Latex. Otherwise, if you're brave enough, you can compile it from source - just follow the steps listed bellow.
 
 ## Some notes (so I don't forget)
 
@@ -11,3 +9,7 @@ Built with latex because I don't know how to use MS Word.
 
 ### Building
 There's a handy `./build.sh` script that generates a PDF version of the CV.
+
+<p align="center">
+<img src="https://media.giphy.com/media/4matepYOMlr677tuy0/giphy-downsized.gif" />
+</p>
