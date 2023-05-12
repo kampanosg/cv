@@ -1,7 +1,9 @@
-# The CV Page
-This is the "official" repo for my CV. I figured it's a lot easier to keep (and maintain) it here, rather than a random folder in the cloud. There's a compiled PDF for the ~millions of~ recruiters eager to read my CV, but don't know how to compile Latex. Otherwise, if you're brave enough, you can compile it from source - just follow the steps listed bellow.
+# CV
+This is the "official" repo for my CV. I figured it's a lot easier to keep (and maintain) it here, rather than a random folder in the cloud. There's a compiled PDF for the ~millions of~ recruiters eager to read my CV, but don't know how to compile Latex. 
 
-## Some notes (so I don't forget)
+Otherwise, if you're brave enough, you can compile it from source - just follow the steps listed bellow.
+
+## Building from source
 
 ### Requirements
 * Editor
